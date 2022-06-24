@@ -1,5 +1,5 @@
 import './styles.css'
-const Header = () =>{
+const Header = ({currentDate, setCurrentDate}) =>{
 	return (
 		<div className="App-header">
 			<a className="header-text">Interview Calendar</a>
